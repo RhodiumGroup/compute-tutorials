@@ -9,7 +9,6 @@ dependencies:
   - cartopy
   - matplotlib
   - dask
-  - dask.distributed
   - xarray
   - pip:
     - nbgitpuller
