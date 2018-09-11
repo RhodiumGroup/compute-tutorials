@@ -1,0 +1,16 @@
+name: compute-tutorial-binder
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - numpy
+  - pandas
+  - conda-forge/label/dev::geopandas
+  - cartopy
+  - matplotlib
+  - dask
+  - dask.distributed
+  - xarray
+  - pip:
+    - nbgitpuller
+    - sphinx-gallery
